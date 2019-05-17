@@ -16,8 +16,7 @@ public class IntToEng {
 
     // 数値を英訳する変換するメソッド
 
-    static String translateEng(int n) {
-    	
+   // static String translateEng(int n) {
     	
     	//String[] s = ;
     	
@@ -46,8 +45,30 @@ public class IntToEng {
     		return "ten";
     	}*/
 
-        return "";
+      //  return "";
 
+   // }
+    static  String translateEng(int n){//一の位
+    	String no = " ";
+    	switch(n){
+    	
+    	case 0: no= "zero";
+    	case 1: no= "one";
+    	case 2: no= "two";
+    	case 3: no= "three";
+    	case 4: no= "four";
+    	case 5: no= "five";
+    	case 6: no= "six";
+    	case 7: no= "seven";
+    	case 8: no= "eight";
+    	case 9: no= "nine";
+    	
+    	
+    	}
+    	
+    	
     }
+   
 
 }
+    
